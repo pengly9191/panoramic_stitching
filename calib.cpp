@@ -81,7 +81,7 @@ void cameraCalib(){
         {
             for (int j = 0; j<board_size.width; j++)
             {
-                /* \u5047\u8bbe\u5b9a\u6807\u677f\u653e\u5728\u4e16\u754c\u5750\u6807\u7cfb\u4e2dz=0\u7684\u5e73\u9762\u4e0a */
+               
                 Point3f tempPoint;
                 tempPoint.x = i*square_size.width;
                 tempPoint.y = j*square_size.height;
